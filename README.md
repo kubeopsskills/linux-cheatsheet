@@ -67,8 +67,8 @@ This is Day to Day Work Linux Cheatsheet for Software Engineers.
 |------------ | -------------|
 |Shows processes for the current shell|ps 
 |View all the running processes|ps -A or ps -e
-|View processes not associated with the terminal| ps -a
-|View processes not associated with the terminal and owned by you|ps -aux
+|View all processes associated with the terminal| ps -a
+|View all processes associated with the terminal and show user|ps -aux
 
 ## Vi Shortcuts Commands
 | Name   |   Command |
