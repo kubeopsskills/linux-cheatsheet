@@ -65,10 +65,24 @@ This is Day to Day Work Linux Cheatsheet for Software Engineers.
 ## Process Commands
 | Name   |   Command |
 |------------ | -------------|
+|Shows the processes for the current shell|ps 
+|View all the running processes|ps -A or ps -e
+|View Processes not associated with a terminal| ps -a
+|View processes not associated and show user own by you|ps -aux
 
 ## Vi Shortcuts Commands
 | Name   |   Command |
 |------------ | -------------|
+|Edit file|vi <file_name>
+|Insert mode   |  i |
+|Insert next line| o |
+|Insert and move cursor to the end of line| shift + c
+|Copy line| yy
+|Patse line| p
+|Delete line| dd
+|Go to the end of file|shift + G
+|Search keyword|/ `<keyword>`
+
 
 ## References
 
