@@ -10,8 +10,12 @@ This is Day to Day Work Linux Cheatsheet for Software Engineers.
 ## Directory Commands
 | Name   |   Command |
 |------------ | -------------|
-|Create Directory||mkdir <directory_name>
+|Create Directory|mkdir <directory_name>
 |Create Directory with Parent|mkdir -p <parent_directory_name>/<directory_name>|
+|Remove Directory|rm -r <directory_name>
+|Remove Directory without prompt|rm -rf <directory_name>
+|Copy Directory|cp -r <directory_name> <destination_path>
+|Move Directory|mv <directory_name> <destination_path>
 
 ## Search Commands
 | Name   |   Command |
@@ -22,8 +26,8 @@ This is Day to Day Work Linux Cheatsheet for Software Engineers.
 ## Pipes
 | Name   |   Command |
 |------------ | -------------|
-|Send stdout of cmd1 to cmd2|cmd1 | cmd2|
-|Send stderr of cmd1 to cmd2|cmd1 |& cmd2|
+|Send stdout of cmd1 to cmd2|cmd1 `|` cmd2|
+|Send stderr of cmd1 to cmd2|cmd1 `|&` cmd2|
 
 ## File Commands
 | Name   |   Command |
@@ -31,14 +35,32 @@ This is Day to Day Work Linux Cheatsheet for Software Engineers.
 |Show content of the file|cat <file_name>
 |Create a file with content|cat `<<EOF >` <file_name><br>#!/bin/bash<br>`<content>`<br>`EOF`
 |Create an empty file|touch <file_name>
+|Remove file|rm <file_name>
+|Remove file without prompt|rm -f <file_name>
+|Copy file|cp <file_name> <destination_path>
+|Move file|mv <file_name> <destination_path>
+|Show first n lines of file|head -n <n> <file_name>
+|Show last n lines of file|tail -n <n> <file_name>
+|Keep showing last 10 lines of file|tail -f <file_name>
+|List files in current directory|ls
+|List files, hidden files in current directory|ls -a
+|List files in current directory with their permissions and sizes|ls -l
+|List files in current directory with their permissions, sizes, units|ls -lh
+|Paginate the content of file|cat <file_name> `|` less
 
 ## File Permissions Commands
 | Name   |   Command |
 |------------ | -------------|
+|Change file permission with permission number|chmod 755 <file_name>
+|Change directory permission with permission number|chmod -R 755 <directory_name>
+|Change directory permission with letters|chmod -R u+rw,g+r,o+x <directory_name>
 
 ## File Permissions Numbers
 | Name   |   Command |
 |------------ | -------------|
+|4            | read (r)
+|2            | write (w)
+|1            | execute (x)
 
 ## Process Commands
 | Name   |   Command |
