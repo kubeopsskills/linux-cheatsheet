@@ -46,7 +46,7 @@ This is Day to Day Work Linux Cheatsheet for Software Engineers.
 |List files, hidden files in current directory|ls -a
 |List files in current directory with their permissions and sizes|ls -l
 |List files in current directory with their permissions, sizes, units|ls -lh
-|Paginate the content of file|cat <file_name> `|` less
+|Paginate the content of file|cat <file_name> `|` `less`
 
 ## File Permissions Commands
 | Name   |   Command |
