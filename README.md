@@ -65,10 +65,10 @@ This is Day to Day Work Linux Cheatsheet for Software Engineers.
 ## Process Commands
 | Name   |   Command |
 |------------ | -------------|
-|Shows the processes for the current shell|ps 
+|Shows processes for the current shell|ps 
 |View all the running processes|ps -A or ps -e
-|View Processes not associated with a terminal| ps -a
-|View processes not associated and show user own by you|ps -aux
+|View processes not associated with the terminal| ps -a
+|View processes not associated with the terminal and owned by you|ps -aux
 
 ## Vi Shortcuts Commands
 | Name   |   Command |
@@ -80,7 +80,7 @@ This is Day to Day Work Linux Cheatsheet for Software Engineers.
 |Copy line| yy
 |Patse line| p
 |Delete line| dd
-|Go to the end of file|shift + G
+|Go to the end of file|shift + g
 |Search keyword|/ `<keyword>`
 
 
