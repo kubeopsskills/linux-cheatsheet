@@ -21,6 +21,10 @@ This is Day to Day Work Linux Cheatsheet for Software Engineers.
 | Name   |   Command |
 |------------ | -------------|
 |Search files in a directory|find <directory_name> -name <file_name_pattern>|
+|Search text in file|grep <text> <file_name>
+|Search text case-insensitive| grep -i <text> <file_name>
+|Search text search for all patterns given| grep -e <text> <file_name>
+|Search multiple text with case-insensitive and all pattern given| grep -ie <text1> <file_name> -ie <text2> <file_name> -ie <text3> <file_name> -ie <textn> <file_name>
 |Search file for any lines that don't include the content|grep -v '<content_pattern>' <file_name>
 
 ## Pipes
