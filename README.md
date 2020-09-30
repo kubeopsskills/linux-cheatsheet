@@ -25,7 +25,10 @@ This is Day to Day Work Linux Cheatsheet for Software Engineers.
 | Name   |   Command |
 |------------ | -------------|
 |Search files in a directory|find <directory_name> -name <file_name_pattern>|
+|Search files in a directory with case-insensitive| find <directory_name> -iname <file_name_pattern>|
+|Search files in a directory and execute command on it|find <directory_name> -name <file_name_pattern> -exec <command> {} \;
 |Search text in file|grep `<text>` <file_name>
+|Search text in file with line numbers| grep -n `<text>` <file_name>
 |Search text in file with case-insensitive| grep -i `<text>` <file_name>
 |Search text in file for all patterns given| grep -e `<text>` <file_name>
 |Search multiple text with case-insensitive and all pattern given| grep -ie `<text1>` <file_name> -ie `<text2>` <file_name> -ie `<text3>` <file_name> -ie `<textn>` <file_name>
