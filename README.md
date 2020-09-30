@@ -18,6 +18,7 @@ This is Day to Day Work Linux Cheatsheet for Software Engineers.
 |Create Directory with Parent|mkdir -p <parent_directory_name>/<directory_name>|
 |Remove Directory|rm -r <directory_name>
 |Remove Directory without prompt|rm -rf <directory_name>
+|Remove empty Directory|rmdir <directory_name>
 |Copy Directory|cp -r <directory_name> <destination_path>
 |Move Directory|mv <directory_name> <destination_path>
 
@@ -50,11 +51,16 @@ This is Day to Day Work Linux Cheatsheet for Software Engineers.
 |Show first n lines of file|head -n <n> <file_name>
 |Show last n lines of file|tail -n <n> <file_name>
 |Keep showing last 10 lines of file|tail -f <file_name>
+|Show total line in a file|cat <file_name> \| wc -l
 |List files in current directory|ls
 |List files, hidden files in current directory|ls -a
 |List files in current directory with their permissions and sizes|ls -l
 |List files in current directory with their permissions, sizes, units|ls -lh
 |Paginate the content of file|cat <file_name> `\|` less
+|Create symbolic link to source file in current directory|ln -s <file_name>
+|Create symbolic link to source file in directory|ln -s <file_name> <directory>
+|Extract .tar.gz file|tar -zxvf <file_name>
+|See the differences between files|diff <file_a> <file_b>
 
 ## File Permissions Commands
 | Name   |   Command |
@@ -62,6 +68,9 @@ This is Day to Day Work Linux Cheatsheet for Software Engineers.
 |Change file permission with permission number|chmod 755 <file_name>
 |Change directory permission with permission number|chmod -R 755 <directory_name>
 |Change directory permission with letters|chmod -R u+rw,g+r,o+x <directory_name>
+|Change file owner |chown <user> <file_name>
+|Change file owner with user's login group |chown <user>: <file_name>
+|Change directory and its content owner recursively |chown -R <user> <directory_name>
 
 ## File Permissions Numbers
 | Name   |   Command |
