@@ -89,6 +89,13 @@ This is Day to Day Work Linux Cheatsheet for Software Engineers.
 |View all the running processes|ps -A or ps -e
 |View all processes associated with the terminal| ps -a
 |View all processes associated with the terminal and show user|ps -aux
+|Kill specific process id| kill -SIGTERM <process_id> ...
+|Lists signal| kill -l
+|Kill all processes with specifies name| pkill <process_name>
+|Kill all processes with case-insensitive| pkill -i <process_name>
+|Kill specific running command| pkill -f <running_command_pattern>
+|Kill all processes with specific signal| pkill --signal <signal> <process_name>
+|Show dynamic real-time processes list of specific user| top -u <user>
 
 ## Vi Shortcuts Commands
 | Name   |   Command |
