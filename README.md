@@ -86,10 +86,29 @@ This is Day to Day Work Linux Cheatsheet for Software Engineers.
 |Insert next line| o |
 |Insert and move cursor to the end of line| shift + c
 |Copy line| yy
+|Change line| cc
 |Patse line| p
 |Delete line| dd
+|Delete next word| dw
+|Delete previous word| db
+|Delete at caret| x
+|Substitute single character| s
+|Go to the start of file|gg
 |Go to the end of file|shift + g
+|Go to row|`<row_number>` + gg
+|Go to column|`<column_number>` + \|
+|Go to matching braces| %
 |Search keyword|/ `<keyword>`
+|Search keyword case-insensitive|/\c `<keyword>`
+|Search move next| n
+|Search move previous| shift + n
+|Visualize character| v
+|Visualize line| shift + v
+|Tab right| shift + .
+|Tab left| shift + ,
+|Repeat last change| .
+|Undo| u
+|Redo| ctrl + r
 
 
 ## References
