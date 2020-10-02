@@ -147,7 +147,7 @@ This is Day to Day Work Linux Cheatsheet for Software Engineers.
 |Sleep Program| CTRL + z <correct>
 |Search History| CTRL + r <correct>
 |Repeat Last Command| !! <correct>
-|Run Last Command Start with Given character| ! <character>
+|Run the most recent command that matches with starting character(s) of string | !<string>
 
 ## Bash Variables
 | Name   |   Command |
