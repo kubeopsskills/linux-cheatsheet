@@ -27,7 +27,7 @@ This is Day to Day Work Linux Cheatsheet for Software Engineers.
 |------------ | -------------|
 |Search files in a directory|find <directory_name> -name <file_name_pattern>|
 |Search files in a directory with case-insensitive| find <directory_name> -iname <file_name_pattern>|
-|Search files in a directory and execute command on it|find <directory_name> -name <file_name_pattern> -exec <command> {} \;
+|Search files in a directory and execute command on it|find <directory_name> -name <file_name_pattern> -exec `<command>`
 |Search text in file|grep `<text>` <file_name>
 |Search text in file with line numbers| grep -n `<text>` <file_name>
 |Search text in file with case-insensitive| grep -i `<text>` <file_name>
@@ -94,8 +94,8 @@ This is Day to Day Work Linux Cheatsheet for Software Engineers.
 |Kill all processes with specifies name| pkill <process_name>
 |Kill all processes with case-insensitive| pkill -i <process_name>
 |Kill specific running command| pkill -f <running_command_pattern>
-|Kill all processes with specific signal| pkill --signal <signal> <process_name>
-|Show dynamic real-time processes list of specific user| top -u <user>
+|Kill all processes with specific signal| pkill --signal `<signal>` <process_name>
+|Show dynamic real-time processes list of specific user| top -u `<user>`
 
 ## Vi Shortcuts Commands
 | Name   |   Command |
