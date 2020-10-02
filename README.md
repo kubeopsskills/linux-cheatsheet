@@ -100,37 +100,36 @@ This is Day to Day Work Linux Cheatsheet for Software Engineers.
 ## Vi Shortcuts Commands
 | Name   |   Command |   Animation|
 |------------ | -------------| -------------|
-|Edit file|vi <file_name>| <img src="./assets/vi/vi-editor.gif" />|
-|Insert mode   |  i | <img src="./assets/vi/insert.gif" />|
-|Insert next line| o |
-|Insert and move cursor to the end of line| shift + a| <img src="./assets/vi/shift+a.gif" />|
-|Copy line| yy | <img src="./assets/vi/copy-and-paste.gif" />|
-|Change line| cc
-|Patse line| p | <img src="./assets/vi/copy-and-paste.gif" />|
-|Delete line| dd | <img src="./assets/vi/delete-line.gif" />|
-|Delete next word| dw
-|Delete previous word| db
-|Delete at caret| x
-|Delete current cursor to then end of line| shift + c |<img src="./assets/vi/shift+c.gif" />|
-|Substitute single character| s
-|Go to the start of file|gg
-|Go to the end of file|shift + g | <img src="./assets/vi/shift+g.gif" />|
-|Go to row|`<row_number>` + gg 
-|Go to column|`<column_number>` + \|
-|Go to matching braces| %
-|Search keyword|/ `<keyword>`
-|Search keyword case-insensitive|/\c `<keyword>`
-|Search move next| n
-|Search move previous| shift + n
-|Visualize character| v
-|Visualize line| shift + v
-|Tab right| shift + .
-|Tab left| shift + ,
-|Repeat last change| .
-|Undo| u | <img src="./assets/vi/undo.gif" />|
-|Redo| ctrl + r
-|Save| :wq| <img src="./assets/vi/save.gif" />|
-|Quit| :q| <img src="./assets/vi/quit.gif" />|
+|Edit file | vi <file_name> | <img src="./assets/vi/vi-editor.gif" /> |
+|Insert mode | i | <img src="./assets/vi/insert.gif" /> |
+|Insert next line | o | <img src="./assets/vi/insert-next-line.gif" /> |
+|Insert and move cursor to the end of line | shift + a | <img src="./assets/vi/shift+a.gif" /> |
+|Copy line | yy | <img src="./assets/vi/copy-and-paste.gif" /> |
+|Patse line | p | <img src="./assets/vi/copy-and-paste.gif" /> |
+|Change line | cc | <img src="./assets/vi/change-line.gif" /> |
+|Delete line | dd | <img src="./assets/vi/delete-line.gif" /> |
+|Delete next word | dw | <img src="./assets/vi/delete-next-word.gif" /> |
+|Delete previous word | db | <img src="./assets/vi/delete-previous-word.gif" /> |
+|Delete at caret | x | <img src="./assets/vi/delete-at-caret.gif" /> |
+|Delete current cursor to then end of line | shift + c | <img src="./assets/vi/shift+c.gif" /> |
+|Substitute single character | s | <img src="./assets/vi/substitute-character.gif" /> |
+|Go to the start of file | gg | <img src="./assets/vi/go-to-top.gif" /> |
+|Go to the end of file | shift + g | <img src="./assets/vi/go-to-bottom.gif" /> |
+|Go to row |`<row_number>` + gg | <img src="./assets/vi/go-to-row.gif" /> |
+|Go to column |`<column_number>` + \ | <img src="./assets/vi/go-to-column.gif" /> |
+|Search keyword |/ `<keyword>` | <img src="./assets/vi/search-keyword.gif" /> |
+|Search keyword case-insensitive | /\c `<keyword>` | <img src="./assets/vi/search-case-insensitive.gif" /> |
+|Search move next | n | <img src="./assets/vi/search-next.gif" /> |
+|Search move previous | shift + n | <img src="./assets/vi/search-previous.gif" /> |
+|Visualize character| v | <img src="./assets/vi/visualize-character.gif" /> |
+|Visualize line | shift + v | <img src="./assets/vi/visualize-line.gif" /> |
+|Tab right | shift + . | <img src="./assets/vi/tab-right.gif" /> |
+|Tab left | shift + , | <img src="./assets/vi/tab-left.gif" /> |
+|Repeat last change| . | <img src="./assets/vi/repeat-last-change.gif" /> |
+|Undo| u | <img src="./assets/vi/undo.gif" /> |
+|Redo| ctrl + r | <img src="./assets/vi/redo.gif" /> |
+|Save| :wq | <img src="./assets/vi/save.gif" /> |
+|Quit| :q | <img src="./assets/vi/quit.gif" /> |
 
 
 ## References
