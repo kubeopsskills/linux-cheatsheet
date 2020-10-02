@@ -144,10 +144,10 @@ This is Day to Day Work Linux Cheatsheet for Software Engineers.
 | Name   |   Command |
 |------------ | -------------|
 |Stop Current Command| CTRL + c
-|Sleep Program| CTRL + z
-|Search History| CTRL + r
-|Repeat Last Command| !!
-|Run Last Command Start with Given String| !`<string>`
+|Send Current Progress to Background| CTRL + z
+|Recall Last Command that match with given character| CTRL + r
+|Recall Latest Command| !!
+|Recall Latest Command that Start with Given String| !`<string>`
 
 ## Bash Variables
 | Name   |   Command |
