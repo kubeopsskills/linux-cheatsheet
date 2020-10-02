@@ -98,23 +98,24 @@ This is Day to Day Work Linux Cheatsheet for Software Engineers.
 |Show dynamic real-time processes list of specific user| top -u `<user>`
 
 ## Vi Shortcuts Commands
-| Name   |   Command |
-|------------ | -------------|
-|Edit file|vi <file_name>
-|Insert mode   |  i |
+| Name   |   Command |   Animation|
+|------------ | -------------| -------------|
+|Edit file|vi <file_name>| <img src="./assets/vi/vi-editor.gif" />|
+|Insert mode   |  i | <img src="./assets/vi/insert.gif" />|
 |Insert next line| o |
-|Insert and move cursor to the end of line| shift + c
-|Copy line| yy
+|Insert and move cursor to the end of line| shift + a| <img src="./assets/vi/shift+a.gif" />|
+|Copy line| yy | <img src="./assets/vi/copy-and-paste.gif" />|
 |Change line| cc
-|Patse line| p
-|Delete line| dd
+|Patse line| p | <img src="./assets/vi/copy-and-paste.gif" />|
+|Delete line| dd | <img src="./assets/vi/delete-line.gif" />|
 |Delete next word| dw
 |Delete previous word| db
 |Delete at caret| x
+|Delete current cursor to then end of line| shift + c |<img src="./assets/vi/shift+c.gif" />|
 |Substitute single character| s
 |Go to the start of file|gg
-|Go to the end of file|shift + g
-|Go to row|`<row_number>` + gg
+|Go to the end of file|shift + g | <img src="./assets/vi/shift+g.gif" />|
+|Go to row|`<row_number>` + gg 
 |Go to column|`<column_number>` + \|
 |Go to matching braces| %
 |Search keyword|/ `<keyword>`
@@ -126,8 +127,10 @@ This is Day to Day Work Linux Cheatsheet for Software Engineers.
 |Tab right| shift + .
 |Tab left| shift + ,
 |Repeat last change| .
-|Undo| u
+|Undo| u | <img src="./assets/vi/undo.gif" />|
 |Redo| ctrl + r
+|Save| :wq| <img src="./assets/vi/save.gif" />|
+|Quit| :q| <img src="./assets/vi/quit.gif" />|
 
 
 ## References
