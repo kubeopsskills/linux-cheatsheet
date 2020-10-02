@@ -144,9 +144,9 @@ This is Day to Day Work Linux Cheatsheet for Software Engineers.
 | Name   |   Command |
 |------------ | -------------|
 |Stop Current Command| CTRL + c
-|Sleep Program| CTRL + z <correct>
-|Search History| CTRL + r <correct>
-|Repeat Last Command| !! <correct>
+|Sleep Program| CTRL + z 
+|Search History| CTRL + r
+|Repeat Last Command| !!
 |Run the most recent command that matches with starting character(s) of string | !<string>
 
 ## Bash Variables
