@@ -131,7 +131,44 @@ This is Day to Day Work Linux Cheatsheet for Software Engineers.
 |Save| :wq | <img src="./assets/vi/save.gif" /> |
 |Quit| :q | <img src="./assets/vi/quit.gif" /> |
 
+## Bash Commands
+| Name   |   Command |
+|------------ | -------------|
+|Show System| uname -a
+|Show Mounted File System| mount
+|Show System Date| date
+|Show Uptime| uptime
+|Show username| whoami
+|Show Manual Command| man `<command>`
+|Show History Command| history
+
+## Bash Shortcuts
+| Name   |   Command |
+|------------ | -------------|
+|Stop Current Command| CTRL + c
+|Sleep Program| CTRL + z 
+|Search History| CTRL + r
+|Repeat Last Command| !!
+|Run the most recent command that matches with starting character(s) of string | !<string>
+
+## Bash Variables
+| Name   |   Command |
+|------------ | -------------|
+|Show Environment Variables| env
+|Show Value of Variable| echo $`<VariableName>`
+|Set Value of Variable| export $`<VariableName>` = `<value>`
+|Show Executable Search Path| $PATH
+|Show Home Directory| $HOME
+|Show Current Shell| $SHELL
+
+## Multiple Command
+| Name   |   Command |
+|------------ | -------------|
+|Run command1 then command2| `<command1>` ; `<command2>`
+|Run command2 if command1 is successful| `<command1>` && `<command2>` 
+|Run command2 if command1 is not successful| `<command1>` || `<command2>` 
 
 ## References
 
 **An A-Z Index of Linux command line:** [Link](https://ss64.com/bash/)
+
