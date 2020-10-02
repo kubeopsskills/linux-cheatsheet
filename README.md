@@ -149,7 +149,7 @@ This is Day to Day Work Linux Cheatsheet for Software Engineers.
 |Sleep Program| CTRL + z 
 |Search History| CTRL + r
 |Repeat Last Command| !!
-|Run the most recent command that matches with starting character(s) of string | !<string>
+|Run the most recent command that matches with starting character(s) of string | !`<string>`
 
 ## Bash Variables
 | Name   |   Command |
@@ -161,12 +161,12 @@ This is Day to Day Work Linux Cheatsheet for Software Engineers.
 |Show Home Directory| $HOME
 |Show Current Shell| $SHELL
 
-## Multiple Command
+## Multiple Commands
 | Name   |   Command |
 |------------ | -------------|
-|Run command1 then command2| `<command1>` ; `<command2>`
-|Run command2 if command1 is successful| `<command1>` && `<command2>` 
-|Run command2 if command1 is not successful| `<command1>` || `<command2>` 
+|Run command1 then command2| `<command1> ; <command2>`
+|Run command2 if command1 is successful| `<command1> && <command2>` 
+|Run command2 if command1 is not successful| `<command1> || <command2>` 
 
 ## References
 
