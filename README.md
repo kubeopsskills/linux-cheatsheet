@@ -118,7 +118,7 @@ This is Day to Day Work Linux Cheatsheet for Software Engineers.
 |Go to row |`<row_number>` + gg | <img src="./assets/vi/go-to-row.gif" /> |
 |Go to column |`<column_number>` + \ | <img src="./assets/vi/go-to-column.gif" /> |
 |Search keyword |/ `<keyword>` | <img src="./assets/vi/search-keyword.gif" /> |
-|Search keyword case-insensitive | /\c `<keyword>` | <img src="./assets/vi/search-case-insensitive.gif" /> |
+|Search keyword case-insensitive | /`<keyword>`\c | <img src="./assets/vi/search-case-insensitive.gif" /> |
 |Search move next | n | <img src="./assets/vi/search-next.gif" /> |
 |Search move previous | shift + n | <img src="./assets/vi/search-previous.gif" /> |
 |Visualize character| v | <img src="./assets/vi/visualize-character.gif" /> |
@@ -166,7 +166,7 @@ This is Day to Day Work Linux Cheatsheet for Software Engineers.
 |------------ | -------------|
 |Run command1 then command2| `<command1> ; <command2>`
 |Run command2 if command1 is successful| `<command1> && <command2>` 
-|Run command2 if command1 is not successful| `<command1> || <command2>` 
+|Run command2 if command1 is not successful| `<command1> \|\| <command2>` 
 
 ## References
 
