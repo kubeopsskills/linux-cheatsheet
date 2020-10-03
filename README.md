@@ -11,6 +11,16 @@ This is Day to Day Work Linux Cheatsheet for Software Engineers.
 
 <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by-sa/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
+## Info Commands
+| Name   |   Command |
+|------------ | -------------|
+|Display manual page of <command_name>|man <command_name>
+|The info about  the <command_name>|info  <command_name>
+|List a one-line description of <command_name>|whatis  <command_name>
+|Find the location of source|whereis  <command_name>
+|Find the location of program in terminal|which  <command_name1>  <command_name2> ...
+|Display the info abount the <command_name> bash command|help
+
 ## Directory Commands
 | Name   |   Command |
 |------------ | -------------|
