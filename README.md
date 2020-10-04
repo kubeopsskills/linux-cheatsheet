@@ -16,7 +16,7 @@ This is Day to Day Work Linux Cheatsheet for Software Engineers.
 
 | Name                            | Command                                           |
 | ------------------------------- | ------------------------------------------------- |
-| Change Directory                | cd <parent_directory_name>                        |
+| Change Directory                | cd /<path_directory_name>                         |
 | Create Directory                | mkdir <directory_name>                            |
 | Create Directory with Parent    | mkdir -p <parent_directory_name>/<directory_name> |
 | Remove Directory                | rm -r <directory_name>                            |
