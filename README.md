@@ -16,8 +16,8 @@ This is Day to Day Work Linux Cheatsheet for Software Engineers.
 
 | Name                            | Command                                           |
 | ------------------------------- | ------------------------------------------------- |
-| Change Directory                | cd /<path_directory_name>                         |
-| Change Directory to pervious    | cd ..                                             |
+| Change Directory                | cd /<directory_path>                              |
+| Change Directory to Pervious    | cd ..                                             |
 | Create Directory                | mkdir <directory_name>                            |
 | Create Directory with Parent    | mkdir -p <parent_directory_name>/<directory_name> |
 | Remove Directory                | rm -r <directory_name>                            |
