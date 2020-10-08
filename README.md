@@ -183,6 +183,7 @@ This is Day to Day Work Linux Cheatsheet for Software Engineers.
 | Run command2 if command1 is successful     | `<command1> && <command2>`   |
 | Run command2 if command1 is not successful | `<command1> \|\| <command2>` |
 
+## Network Commands
 | Name                                                                           | Command                |
 | -------------------------------------------------------------------------------| -----------------------|
 | Display all network ports and ip address                                       | `ifconfig -a`          |
