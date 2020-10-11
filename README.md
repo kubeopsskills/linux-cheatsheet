@@ -183,6 +183,18 @@ This is Day to Day Work Linux Cheatsheet for Software Engineers.
 | Run command2 if command1 is successful     | `<command1> && <command2>`   |
 | Run command2 if command1 is not successful | `<command1> \|\| <command2>` |
 
+## Network Commands
+| Name                                                                           | Command                |
+| -------------------------------------------------------------------------------| -----------------------|
+| Display all network interfaces and IP addresses                                | `ifconfig -a`          |
+| Send echo requests to the target host to verify connectivity                   | `ping <host>`          |
+| Get who is information for domain                                              | `whois <domain>`       |
+| Get DNS information for domain                                                 | `dig <domain>`         |
+| Reverse lookup host                                                            | `dig -x <host>`        |
+| Display name of server                                                         | `hostname`             |
+| Download file                                                                  | `wget <file>`          |
+| Listing all listening connections ports                                        | `netstat -a`           |
+
 ## References
 
 **An A-Z Index of Linux command line:** [Link](https://ss64.com/bash/)
