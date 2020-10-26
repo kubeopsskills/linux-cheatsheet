@@ -135,6 +135,10 @@ To understand Vim well, we need to understand Vim editing modes. Vim has 6 basic
 | Delete a character at the current cursor position and stay in a normal mode            | x                      | <img src="./assets/vi/delete-at-caret.gif" />         |
 | Delete and switch to an insert mode from the current cursor postion to the end of line | C                      | <img src="./assets/vi/shift+c.gif" />                 |
 | Delete a character and switch to an insert mode (Substitute a character)               | s                      | <img src="./assets/vi/substitute-character.gif" />    |
+| Move the cursor left                                                                   | h                      | <img src="./assets/vi/move-the-cursor-left.gif" />    |
+| Move the cursor down                                                                   | j                      | <img src="./assets/vi/move-the-cursor-down.gif" />    |
+| Move the cursor up                                                                     | k                      | <img src="./assets/vi/move-the-cursor-up.gif" />      |
+| Move the cursor right                                                                  | l                      | <img src="./assets/vi/move-the-cursor-right.gif" />   |
 | Go to the begining of the first line                                                   | gg                     | <img src="./assets/vi/go-to-top.gif" />               |
 | Go to the begining of the last line                                                    | G                      | <img src="./assets/vi/go-to-bottom.gif" />            |
 | Go to a line number                                                                    | `<row_number>` + gg    | <img src="./assets/vi/go-to-row.gif" />               |
