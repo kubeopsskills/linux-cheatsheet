@@ -107,40 +107,51 @@ This is Day to Day Work Linux Cheatsheet for Software Engineers.
 | Kill all processes with specific signal                       | pkill --signal `<signal>` <process_name> |
 | Show dynamic real-time processes list of specific user        | top -u `<user>`                          |
 
-## Vi Shortcuts Commands
+## Vi/Vim Command Shortcuts
 
-| Name                                      | Command                | Animation                                             |
-| ----------------------------------------- | ---------------------- | ----------------------------------------------------- |
-| Edit file                                 | vi <file_name>         | <img src="./assets/vi/vi-editor.gif" />               |
-| Insert mode                               | i                      | <img src="./assets/vi/insert.gif" />                  |
-| Insert next line                          | o                      | <img src="./assets/vi/insert-next-line.gif" />        |
-| Insert and move cursor to the end of line | shift + a              | <img src="./assets/vi/shift+a.gif" />                 |
-| Copy line                                 | yy                     | <img src="./assets/vi/copy-and-paste.gif" />          |
-| Patse line                                | p                      | <img src="./assets/vi/copy-and-paste.gif" />          |
-| Change line                               | cc                     | <img src="./assets/vi/change-line.gif" />             |
-| Delete line                               | dd                     | <img src="./assets/vi/delete-line.gif" />             |
-| Delete next word                          | dw                     | <img src="./assets/vi/delete-next-word.gif" />        |
-| Delete previous word                      | db                     | <img src="./assets/vi/delete-previous-word.gif" />    |
-| Delete at caret                           | x                      | <img src="./assets/vi/delete-at-caret.gif" />         |
-| Delete current cursor to then end of line | shift + c              | <img src="./assets/vi/shift+c.gif" />                 |
-| Substitute single character               | s                      | <img src="./assets/vi/substitute-character.gif" />    |
-| Go to the start of file                   | gg                     | <img src="./assets/vi/go-to-top.gif" />               |
-| Go to the end of file                     | shift + g              | <img src="./assets/vi/go-to-bottom.gif" />            |
-| Go to row                                 | `<row_number>` + gg    | <img src="./assets/vi/go-to-row.gif" />               |
-| Go to column                              | `<column_number>` + \  | <img src="./assets/vi/go-to-column.gif" />            |
-| Search keyword                            | / `<keyword>`          | <img src="./assets/vi/search-keyword.gif" />          |
-| Search keyword case-insensitive           | /`<keyword>`\c         | <img src="./assets/vi/search-case-insensitive.gif" /> |
-| Search move next                          | n                      | <img src="./assets/vi/search-next.gif" />             |
-| Search move previous                      | shift + n              | <img src="./assets/vi/search-previous.gif" />         |
-| Visualize character                       | v                      | <img src="./assets/vi/visualize-character.gif" />     |
-| Visualize line                            | shift + v              | <img src="./assets/vi/visualize-line.gif" />          |
-| Tab right                                 | shift + .              | <img src="./assets/vi/tab-right.gif" />               |
-| Tab left                                  | shift + ,              | <img src="./assets/vi/tab-left.gif" />                |
-| Repeat last change                        | .                      | <img src="./assets/vi/repeat-last-change.gif" />      |
-| Undo                                      | u                      | <img src="./assets/vi/undo.gif" />                    |
-| Redo                                      | ctrl + r               | <img src="./assets/vi/redo.gif" />                    |
-| Save                                      | :wq                    | <img src="./assets/vi/save.gif" />                    |
-| Quit                                      | :q                     | <img src="./assets/vi/quit.gif" />                    |
+To understand Vim well, we need to understand Vim editing modes. Vim has 6 basic modes which are:
+
+| Name             | Description                                                              | Help page               |
+| ---------------- | ------------------------------------------------------------------------ | ----------------------- |
+| **normal**       | For navigation and manipulation of text. This is the default mode.       | :help Normal-mode       |
+| **insert**       | For inserting new text.                                                  | :help Insert-mode       |
+| **visual**       | For manipulation of text selection.                                      | :help Visual-mode       |
+| select           | Similar to a visual mode, but with a more MS Windows-like behavior.      | :help Select-mode       |
+| **command-line** | For entering editor commands - like the help commands (:help), quit (:q) | :help Command-line-mode |
+| Ex-mode          | Similar to a command-line mode but optimized for batch processing.       | :help Ex-mode           |
+
+| Name                                                                                   | Command                | Example                                               |
+| -------------------------------------------------------------------------------------- | ---------------------- | ----------------------------------------------------- |
+| Edit a file                                                                            | vi <file_name>         | <img src="./assets/vi/vi-editor.gif" />               |
+| Enter an insert mode to insert new text                                                | **i**                  | <img src="./assets/vi/insert.gif" />                  |
+| Insert a blank line under the current line and switch to an insert mode                | o                      | <img src="./assets/vi/insert-next-line.gif" />        |
+| Switch to an insert mode and move a cursor to the end of line (Append)                 | A                      | <img src="./assets/vi/shift+a.gif" />                 |
+| Copy the current line                                                                  | yy                     | <img src="./assets/vi/copy-and-paste.gif" />          |
+| Paste copied text after the current cursor position                                    | p                      | <img src="./assets/vi/copy-and-paste.gif" />          |
+| Delete the current line and switch to an insert mode (Change a line)                   | cc                     | <img src="./assets/vi/change-line.gif" />             |
+| Delete the current line and stay in an normal mode                                     | dd                     | <img src="./assets/vi/delete-line.gif" />             |
+| Delete from the current cursor position to the end of a word                           | dw                     | <img src="./assets/vi/delete-next-word.gif" />        |
+| Delete before the current cursor position to the beginning of a word                   | db                     | <img src="./assets/vi/delete-previous-word.gif" />    |
+| Delete a character at the current cursor position and stay in a normal mode            | x                      | <img src="./assets/vi/delete-at-caret.gif" />         |
+| Delete and switch to an insert mode from the current cursor postion to the end of line | C                      | <img src="./assets/vi/shift+c.gif" />                 |
+| Delete a character and switch to an insert mode (Substitute a character)               | s                      | <img src="./assets/vi/substitute-character.gif" />    |
+| Go to the begining of the first line                                                   | gg                     | <img src="./assets/vi/go-to-top.gif" />               |
+| Go to the begining of the last line                                                    | G                      | <img src="./assets/vi/go-to-bottom.gif" />            |
+| Go to a line number                                                                    | `<row_number>` + gg    | <img src="./assets/vi/go-to-row.gif" />               |
+| Go to a column number                                                                  | `<column_number>` + \  | <img src="./assets/vi/go-to-column.gif" />            |
+| Search keyword                                                                         | / `<keyword>`          | <img src="./assets/vi/search-keyword.gif" />          |
+| Search keyword with case-insensitive                                                   | /`<keyword>`\c         | <img src="./assets/vi/search-case-insensitive.gif" /> |
+| Move to the next found keyword after searching                                         | n                      | <img src="./assets/vi/search-next.gif" />             |
+| Move to the previous found keyword after searching (invert of n)                       | N                      | <img src="./assets/vi/search-previous.gif" />         |
+| Visual selection a character at the current cursor position                            | v                      | <img src="./assets/vi/visualize-character.gif" />     |
+| Visual selection the current line                                                      | V                      | <img src="./assets/vi/visualize-line.gif" />          |
+| Tab right                                                                              | shift + .              | <img src="./assets/vi/tab-right.gif" />               |
+| Tab left                                                                               | shift + ,              | <img src="./assets/vi/tab-left.gif" />                |
+| Repeat a last change                                                                   | .                      | <img src="./assets/vi/repeat-last-change.gif" />      |
+| Undo change                                                                            | u                      | <img src="./assets/vi/undo.gif" />                    |
+| Redo change                                                                            | ctrl + r               | <img src="./assets/vi/redo.gif" />                    |
+| Save and quit                                                                          | **:wq**                | <img src="./assets/vi/save.gif" />                    |
+| Quit (The most important Vi/Vim command)                                               | **:q**                 | <img src="./assets/vi/quit.gif" />                    |
 
 ## Bash Commands
 
@@ -184,16 +195,17 @@ This is Day to Day Work Linux Cheatsheet for Software Engineers.
 | Run command2 if command1 is not successful | `<command1> \|\| <command2>` |
 
 ## Network Commands
-| Name                                                                           | Command                |
-| -------------------------------------------------------------------------------| -----------------------|
-| Display all network interfaces and IP addresses                                | `ifconfig -a`          |
-| Send echo requests to the target host to verify connectivity                   | `ping <host>`          |
-| Get who is information for domain                                              | `whois <domain>`       |
-| Get DNS information for domain                                                 | `dig <domain>`         |
-| Reverse lookup host                                                            | `dig -x <host>`        |
-| Display name of server                                                         | `hostname`             |
-| Download file                                                                  | `wget <file>`          |
-| Listing all listening connections ports                                        | `netstat -a`           |
+
+| Name                                                         | Command          |
+| ------------------------------------------------------------ | ---------------- |
+| Display all network interfaces and IP addresses              | `ifconfig -a`    |
+| Send echo requests to the target host to verify connectivity | `ping <host>`    |
+| Get who is information for domain                            | `whois <domain>` |
+| Get DNS information for domain                               | `dig <domain>`   |
+| Reverse lookup host                                          | `dig -x <host>`  |
+| Display name of server                                       | `hostname`       |
+| Download file                                                | `wget <file>`    |
+| Listing all listening connections ports                      | `netstat -a`     |
 
 ## References
 
