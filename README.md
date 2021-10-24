@@ -168,6 +168,9 @@ To understand Vim well, we need to understand Vim editing modes. Vim has 6 basic
 | Show username            | whoami          |
 | Show Manual Command      | man `<command>` |
 | Show History Command     | history         |
+| Show hostname            | `hostname`      |
+| Show free disk space     | `df -h`         |
+| Show largest files in    | `du -ah <dir> \| sort -n -r \| head -n <number>` | 
 
 ## Bash Shortcuts
 
@@ -210,6 +213,8 @@ To understand Vim well, we need to understand Vim editing modes. Vim has 6 basic
 | Display name of server                                       | `hostname`       |
 | Download file                                                | `wget <file>`    |
 | Listing all listening connections ports                      | `netstat -a`     |
+| Show route table                                             |`netstat -rn` or `route`|
+| Trace your route to Destination                              | `traceroute <host_or_ip>` |
 
 ## References
 
